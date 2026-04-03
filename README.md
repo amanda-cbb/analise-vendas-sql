@@ -113,15 +113,6 @@ A análise permitiu identificar padrões importantes no comportamento das vendas
 2. Executar o arquivo `queries.sql`
 3. Analisar os resultados
 
----
-
-## 🎯 Próximos passos
-
-- Criar dashboard interativo (Power BI)
-- Aprofundar análise por região e produto
-- Aplicar técnicas mais avançadas de análise
-
----
 
 <div align="center">
 
