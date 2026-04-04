@@ -18,7 +18,22 @@ Este projeto tem como objetivo analisar dados de vendas para identificar padrõe
 
 ![Página 2 do Dashboard](powerbi2.png)
 
+## 🧠 Inteligência de Dados (DAX)
 
+Para garantir a precisão dos cálculos e permitir o dinamismo dos filtros, utilizei a linguagem **DAX** para criar medidas personalizadas:
+
+* **Faturamento Total:** Realiza a soma dinâmica de todos os valores de venda.
+    ```dax
+    Faturamento = SUM(tb_vendas[Valor])
+    ```
+* **Quantidade de Vendas:** Conta o número total de transações registradas.
+    ```dax
+    Qtd Vendas = COUNT(tb_vendas[Valor])
+    ```
+* **Ticket Médio:** Calcula o valor médio por venda utilizando a função `DIVIDE`, que garante maior segurança ao tratar possíveis divisões por zero.
+    ```dax
+    Ticket Médio = DIVIDE([Faturamento], [Qtd Vendas])
+    ```
 
 ## 📂 Base de dados
 
