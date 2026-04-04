@@ -9,10 +9,16 @@ Este projeto tem como objetivo analisar dados de vendas para identificar padrõe
 ## 🧰 Ferramentas utilizadas
 
 - SQL
-- Excel
 - Power BI
 
 ---
+
+### 📊 Visualização do Dashboard
+![Página 1 do Dashboard](powerbi.png)
+
+![Página 2 do Dashboard](powerbi2.png)
+
+
 
 ## 📂 Base de dados
 
