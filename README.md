@@ -76,7 +76,7 @@ A base contém informações como:
 ### 🔹 Vendas ao longo do tempo
 
 - Mês com maior faturamento: **Dezembro de 2021**
-- Mês com menor faturamento: **Dezembro de 2026**
+- Mês com menor faturamento: **Dezembro de 2016**
 
 > **Tendência:** As vendas apresentam variação ao longo do tempo, com picos em períodos específicos, indicando possível sazonalidade.
 
